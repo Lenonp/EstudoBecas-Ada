@@ -21,10 +21,12 @@ public class Aula04 {
             System.out.println("Bom Dia");
         } else if (hora >= 12 && hora < 18) {
             System.out.println("Boa Tarde");
-        } else if (hora > 18 && hora < 24) {
+        } else if (hora >= 18 && hora < 24) {
             System.out.println("Boa Noite");
         }
 
         System.out.println(nome);
+
+        sc.close();
     }
 }
